@@ -52,10 +52,3 @@ Query 4: Capability to retain past years’ data (up to 5 years of data).
 
 Although only a few queries and their responses are shown above but we ran almost all the queries in the RFP and the responses were of very high quality, providing support to using this tool for RFPs as we have stated above.
 
-## Deployment of RFP Analyzer for Sustainability
-
-Deploy [ingest](https://github.kyndryl.net/Innovation-Council/ingest) and [query](https://github.kyndryl.net/Innovation-Council/query) repositories which are part of the the *Innovation Council* github organization. Once you have installed the tooling then copy the file `chatbot v3.py` in this repository to the repository folder of [query](https://github.kyndryl.net/Innovation-Council/query).
-
-Unzip and then ingest the documents [industry-sustainability.pdf](industry-sustainability.rar) and [industry-well-architected.pdf](industry-well-architected.rar) using the [ingest](https://github.kyndryl.net/Innovation-Council/ingest) tool you have deployed above.
-
-The above tool can be customized for any domain in which the RFP is obtained.
