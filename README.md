@@ -22,7 +22,8 @@ A RFP for a sustainability solution is received (see [here](ESG_RFP.pdf)). The s
 
 Figure: Architecture for Analyze RFP
 
-![1694198421438](image/README/1694198421438.png)
+![image](https://github.com/Lekha-PRIYA-BHAN/Analyze_RFP/assets/167432155/a1e12229-f787-4b14-a306-65518801f162)
+
 
 The documents that describe architecture and usage of a component are ingested into a vector database (provided in RFP Analyzer) using RFP Analyzer. Then RFP Analyzer provides a GUI to query these documents using NL and GenAI. The GenAI tool used is OpenAI public, hence all the documents you ingest into the Vector DB should not be private documents.
 
@@ -32,21 +33,25 @@ Query 1: Does the system read Arabic data?
 
 The requirement 2.4.1 on page 4 of the provided RFP is used to query the database consisting of documents pertaining to Microsoft Cloud for Sustainability. The query and the response are both shown in the snapshot below.
 
-![1694195921238](image/README/1694195921238.png)
+![image](https://github.com/Lekha-PRIYA-BHAN/Analyze_RFP/assets/167432155/47dcfddc-c892-4a7b-ae30-2738573f9941)
+
 
 Query 2: What other languages can be supported?
 
-![1694196273983](image/README/1694196273983.png)
+![image](https://github.com/Lekha-PRIYA-BHAN/Analyze_RFP/assets/167432155/a6e665c9-6def-45fa-b71d-ce3ce57c54e5)
+
 
 Query 3: Need to migrate the current data into the system.
 
-![1694196721731](image/README/1694196721731.png)
 
-![1694196764241](image/README/1694196764241.png)
+
+![image](https://github.com/Lekha-PRIYA-BHAN/Analyze_RFP/assets/167432155/e4a76ed9-6a3a-4c97-8150-fad3537a783b)
+
 
 Query 4: Capability to retain past years’ data (up to 5 years of data).
 
-![1694196907925](image/README/1694196907925.png)
+![image](https://github.com/Lekha-PRIYA-BHAN/Analyze_RFP/assets/167432155/495be2a1-6560-4293-8813-2b7055ba90e8)
+
 
 ### Quality of Responses
 
